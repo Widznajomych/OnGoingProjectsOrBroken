@@ -1,0 +1,37 @@
+html {
+    max-width: 600px;
+    margin: 8vh auto 0 auto;
+    background-color: rgb(25, 27, 26);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body {
+    background-color: aliceblue;
+    text-align: justify;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0px 0px 57px 17px rgb(37, 37, 37);
+    font-size: 12px;
+}
+h1, h2 {
+    text-align: center;
+}
+h1 {
+    font-size: 36px;
+    font-weight: 1200;
+}
+easy {
+    color: green;
+}
+medium {
+    color: goldenrod;
+}
+hard {
+    color: crimson;
+}
+easy, medium, hard {
+    font-weight: 900;
+}
+c {
+    color: blueviolet;
+    font-weight: 900;
+}

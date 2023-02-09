@@ -1,0 +1,42 @@
+* {
+    font-family: monospace;
+    font-weight: 600;
+}
+#miejsce {
+    max-width: 400px;
+    margin: 10vh auto 0 auto;
+    box-shadow: 0px 0px 57px 57px silver;
+}
+#obraz {
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+    padding: 16px 8px;
+    font-size: 32px;
+    border:2px solid rgb(26, 26, 83);
+    border-bottom: none;
+}
+#przyciski {
+    display: grid;
+    border:2px solid rgb(26, 26, 83);
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+}
+#przycisk {
+    line-height: 125px;
+    text-align: center;
+    font-size: 28px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+#przycisk:hover {
+    box-shadow: 0px 0px 57px 7px silver;
+}
+#przycisk:active {
+    scale: 120%;
+}
+.rowna_sie {
+    background-color: rgb(130, 142, 209);
+}
+.clear {
+    background-color: rgb(255, 126, 126);
+}

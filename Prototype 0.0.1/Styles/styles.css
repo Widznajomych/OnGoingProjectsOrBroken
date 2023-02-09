@@ -1,0 +1,91 @@
+html {
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+@font-face {
+    font-family: TitleFonts;
+    src: url(../Fonts/Belly.ttf);
+}
+@font-face {
+    font-family: FatFonts;
+    src: url(../Fonts/Cavilant.otf);
+}
+@font-face {
+    font-family: PrettyFonts;
+    src: url(../Fonts/Pantherdam\ Signature.otf);
+}
+header {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: white;
+    font-size: 120%;
+    font-family: TitleFonts;
+}
+#header_flex {
+    display: inline-flex;
+}
+header h1 {
+    display: flex;
+}
+header h1 img {
+    margin-right: 15px;
+    margin-left: 5px;
+    border: 1px solid black ;
+}
+div #linki {
+    margin-left: 118%;
+}
+div #linki img {
+    transition: 0.5s;
+    padding: 1px;
+}
+div #linki img:hover {
+    scale: 120%;
+}
+#moja_strona {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 9%, rgba(0,212,255,1) 78%);
+    background-repeat: no-repeat;
+    color: aliceblue;
+    font-family: FatFonts;
+    text-align: center;
+    font-size: 140px;
+    font-weight: lighter;
+    padding-top: 0.2px;
+    padding-bottom: 0.2px;
+}
+#wiedza {
+    background-color: rgb(255, 111, 140);
+    border-left: 24px solid crimson;
+    font-family: FatFonts;
+    text-align: center;
+    font-size: 60px;
+    font-weight: lighter;
+    padding-top: 0.2px;
+    padding-bottom: 0.2px;
+    color: aliceblue;
+}
+ul p {
+    font-size: medium;
+    word-spacing: 5px;
+}
+#info {
+    font-size: 24px;
+}
+#projekty {
+    background-color: aquamarine;
+    border-left: 24px solid rgb(20, 190, 220);
+    font-family: FatFonts;
+    text-align: center;
+    font-size: 60px;
+    font-weight: lighter;
+    padding-top: 0.2px;
+    padding-bottom: 0.2px;
+    color: aliceblue;
+}
+#SOON {
+    text-align: center;
+    font-weight: 600;
+    font-size: 160px;
+}
